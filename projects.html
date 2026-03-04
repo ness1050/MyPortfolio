@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Naseem Ghamari</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="left-section">
+      <a href="index.html" style="font-size: 1.8rem; font-weight: 800; color: #3ff670;">NG</a>
+    </div>
+
+    <nav>
+      <a class="nav-item" href="index.html">Home</a>
+      <a class="nav-item active" href="projects.html">Projects</a>
+      <a class="nav-item" href="skills.html">Skills</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="projects-hero">
+    <div class="hero-content">
+      <h1 class="fade-in-up">My Projects</h1>
+      <p class="fade-in-up" style="animation-delay: 0.2s">Explore my work across full-stack development, embedded systems, and machine learning</p>
+    </div>
+    <div class="animated-background">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS GRID -->
+  <section class="projects-section">
+    <div class="projects-grid">
+
+      <!-- PROJECT 1: THESIS -->
+      <div class="project-card card-hover reveal-on-scroll">
+        <div class="project-header">
+          <div class="project-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h2>EEG Machine Learning</h2>
+          <span class="project-date">2024</span>
+        </div>
+
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">ML/AI</span>
+          <span class="tag">Signal Processing</span>
+        </div>
+
+        <p class="project-description">
+          Developed a supervised machine learning model to differentiate cognitive engagement using EEG signals.
+          Implemented feature extraction from prefrontal EEG data with scikit-learn and TensorFlow, achieving high accuracy in distinguishing genuine vs. simulated engagement in learning scenarios.
+        </p>
+
+        <div class="project-highlights">
+          <div class="highlight-item">
+            <span class="highlight-label">Focus:</span>
+            <span>Brain-Computer Interface</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Methodology:</span>
+            <span>Supervised Learning</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Tools:</span>
+            <span>Python, Matlab, Scikit-learn</span>
+          </div>
+        </div>
+
+        <button class="project-btn" onclick="window.location.href='https://urn.kb.se/resolve?urn=urn:nbn:se:lnu:diva-133902';">
+          <i class="fas fa-external-link-alt"></i> View Thesis
+        </button>
+      </div>
+
+      <!-- PROJECT 2: VEHICLE DETECTION -->
+      <div class="project-card card-hover reveal-on-scroll" style="animation-delay: 0.1s;">
+        <div class="project-header">
+          <div class="project-icon icon-vehicle">
+            <i class="fas fa-car"></i>
+          </div>
+          <h2>Vehicle Detection System</h2>
+          <span class="project-date">2024</span>
+        </div>
+
+        <div class="project-tags">
+          <span class="tag">Arduino</span>
+          <span class="tag">IoT</span>
+          <span class="tag">Real-time</span>
+          <span class="tag">Web Dashboard</span>
+        </div>
+
+        <p class="project-description">
+          Built an intelligent vehicle classification system combining hardware sensors with a real-time web interface. Integrated ultrasonic and infrared sensors for accurate vehicle detection and classification.
+        </p>
+
+        <div class="project-highlights">
+          <div class="highlight-item">
+            <span class="highlight-label">Accuracy:</span>
+            <span>95% Detection · 90% Classification</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Latency Reduction:</span>
+            <span>30% improvement</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Stack:</span>
+            <span>Arduino, Node.js, MongoDB</span>
+          </div>
+        </div>
+
+        <div class="tech-stack">
+          <div class="tech-item">Arduino + Sensors</div>
+          <div class="tech-item">Socket.IO Real-time</div>
+          <div class="tech-item">Node.js Backend</div>
+          <div class="tech-item">Interactive Dashboard</div>
+        </div>
+
+        <button class="project-btn">
+          <i class="fas fa-code"></i> View Details
+        </button>
+      </div>
+
+      <!-- PROJECT 3: SMART STREET LIGHTS -->
+      <div class="project-card card-hover reveal-on-scroll" style="animation-delay: 0.2s;">
+        <div class="project-header">
+          <div class="project-icon icon-iot">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h2>Smart Street Lights IoT</h2>
+          <span class="project-date">2023 - 2024</span>
+        </div>
+
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">LoRaWAN</span>
+          <span class="tag">IoT</span>
+          <span class="tag">Energy Efficiency</span>
+        </div>
+
+        <p class="project-description">
+          Engineered an automated street lighting system using PIR sensors and light sensors (LDR) with LoRaWAN connectivity. The system intelligently adjusts lighting based on motion and ambient light levels.
+        </p>
+
+        <div class="project-highlights">
+          <div class="highlight-item">
+            <span class="highlight-label">Energy Savings:</span>
+            <span>Up to 75% reduction</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Technology:</span>
+            <span>LoRaWAN · TTN · LoPy4</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Features:</span>
+            <span>Real-time Monitoring & Auto-alerts</span>
+          </div>
+        </div>
+
+        <button class="project-btn">
+          <i class="fas fa-leaf"></i> Energy Efficient Solution
+        </button>
+      </div>
+
+      <!-- PROJECT 4: JAVA OOP LENDING -->
+      <div class="project-card card-hover reveal-on-scroll" style="animation-delay: 0.3s;">
+        <div class="project-header">
+          <div class="project-icon icon-java">
+            <i class="fas fa-code"></i>
+          </div>
+          <h2>Java OOP Lending System</h2>
+          <span class="project-date">2023</span>
+        </div>
+
+        <div class="project-tags">
+          <span class="tag">Java</span>
+          <span class="tag">OOP</span>
+          <span class="tag">Design Patterns</span>
+          <span class="tag">UML</span>
+        </div>
+
+        <p class="project-description">
+          Designed and implemented a comprehensive lending system applying Object-Oriented principles. Features complete CRUD operations, user management, and lending logic with clean architecture patterns.
+        </p>
+
+        <div class="project-highlights">
+          <div class="highlight-item">
+            <span class="highlight-label">Architecture:</span>
+            <span>MVC Pattern</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Concepts:</span>
+            <span>Inheritance, Polymorphism, Encapsulation</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Documentation:</span>
+            <span>Full UML Diagrams</span>
+          </div>
+        </div>
+
+        <button class="project-btn">
+          <i class="fas fa-github"></i> View on GitHub
+        </button>
+      </div>
+
+      <!-- PROJECT 5: FULL-STACK WEB APP -->
+      <div class="project-card card-hover reveal-on-scroll" style="animation-delay: 0.4s;">
+        <div class="project-header">
+          <div class="project-icon icon-web">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h2>Full-Stack Web Application</h2>
+          <span class="project-date">2024 - 2025</span>
+        </div>
+
+        <div class="project-tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">Express</span>
+          <span class="tag">REST API</span>
+          <span class="tag">Responsive Design</span>
+        </div>
+
+        <p class="project-description">
+          Built a responsive, accessible web application with modern architecture. Implemented JWT authentication, RESTful APIs, and a user-friendly interface following web accessibility standards.
+        </p>
+
+        <div class="project-highlights">
+          <div class="highlight-item">
+            <span class="highlight-label">Backend:</span>
+            <span>Node.js with Express</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Security:</span>
+            <span>JWT Authentication</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">UX Focus:</span>
+            <span>WCAG Accessibility</span>
+          </div>
+        </div>
+
+        <button class="project-btn">
+          <i class="fas fa-external-link-alt"></i> View Live
+        </button>
+      </div>
+
+      <!-- PROJECT 6: WORDPRESS E-COMMERCE -->
+      <div class="project-card card-hover reveal-on-scroll" style="animation-delay: 0.5s;">
+        <div class="project-header">
+          <div class="project-icon icon-shop">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <h2>E-Commerce Platform</h2>
+          <span class="project-date">2025 - Present</span>
+        </div>
+
+        <div class="project-tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">WooCommerce</span>
+          <span class="tag">PHP</span>
+          <span class="tag">MySQL</span>
+        </div>
+
+        <p class="project-description">
+          Developed and customized a full e-commerce platform using WordPress and WooCommerce. Implemented payment integrations, invoice systems, and custom functionality using PHP and JavaScript.
+        </p>
+
+        <div class="project-highlights">
+          <div class="highlight-item">
+            <span class="highlight-label">Features:</span>
+            <span>Payment Gateway · Invoicing</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Customization:</span>
+            <span>PHP, JavaScript, CSS</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Database:</span>
+            <span>MySQL Administration</span>
+          </div>
+        </div>
+
+        <button class="project-btn">
+          <i class="fas fa-store"></i> Visit Store
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS HIGHLIGHT -->
+  <section class="skills-highlight">
+    <h2>Technologies & Tools</h2>
+    <div class="skills-grid">
+      <div class="skill-category fade-in-up">
+        <h3>Languages</h3>
+        <div class="skill-items">
+          <span>Java</span>
+          <span>Python</span>
+          <span>JavaScript</span>
+          <span>PHP</span>
+        </div>
+      </div>
+
+      <div class="skill-category fade-in-up" style="animation-delay: 0.1s;">
+        <h3>Backend</h3>
+        <div class="skill-items">
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>MongoDB</span>
+          <span>MySQL</span>
+        </div>
+      </div>
+
+      <div class="skill-category fade-in-up" style="animation-delay: 0.2s;">
+        <h3>Hardware & IoT</h3>
+        <div class="skill-items">
+          <span>Arduino</span>
+          <span>LoRaWAN</span>
+          <span>Sensors</span>
+          <span>RTOS</span>
+        </div>
+      </div>
+
+      <div class="skill-category fade-in-up" style="animation-delay: 0.3s;">
+        <h3>ML & Data</h3>
+        <div class="skill-items">
+          <span>TensorFlow</span>
+          <span>Scikit-learn</span>
+          <span>Signal Processing</span>
+          <span>Matlab</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="projects-cta">
+    <div class="cta-content">
+      <h2>Let's Work Together</h2>
+      <p>Interested in collaborating or learning more about my projects?</p>
+      <div class="cta-buttons">
+        <button class="cta-btn-primary">Get In Touch</button>
+        <button class="cta-btn-secondary">Download CV</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Naseem Ghamari. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Scroll reveal animation
+    const revealOnScroll = document.querySelectorAll('.reveal-on-scroll');
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    revealOnScroll.forEach(el => observer.observe(el));
+
+    // Parallax effect on mouse move
+    const projectCards = document.querySelectorAll('.project-card');
+
+    projectCards.forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+
+        const rotateX = (y - centerY) / 10;
+        const rotateY = (centerX - x) / 10;
+
+        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+      });
+
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0)';
+      });
+    });
+
+    // Smooth scroll on CTA buttons
+    document.querySelectorAll('.cta-btn-primary, .cta-btn-secondary').forEach(btn => {
+      btn.addEventListener('click', () => {
+        window.location.href = 'index.html#contact';
+      });
+    });
+  </script>
+
+</body>
+
+</html>
